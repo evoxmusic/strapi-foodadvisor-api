@@ -1,0 +1,15 @@
+---
+application:
+  name: "strapi-api"
+  project: "my foodadvisor"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "my-db"
+  version: "12.3.0"
+routers:
+- name: "main-strapi-api"
+  routes:
+  - application_name: "strapi-api"
+    paths:
+    - "/"
