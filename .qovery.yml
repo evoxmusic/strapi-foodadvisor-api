@@ -13,3 +13,4 @@ routers:
   - application_name: "strapi-api"
     paths:
     - "/"
+
